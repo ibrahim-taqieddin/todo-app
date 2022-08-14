@@ -33,5 +33,35 @@ else if(gender == "female") {
 }
 
 
+let arrAns=[];
+let q1 =prompt("did you eat today?");
+if ((q1 === "yes") ||(q1 === "no") ) {
+    arrAns.push(q1)
+}else {
+    arrAns.push("invalid")
+}
+let q2 =prompt("did you sleep today?");
+if ((q2 === "yes") ||(q2 === "no") ) {
+    arrAns.push(q2)
+}else {
+    arrAns.push("invalid")
+}
+let q3 =prompt("did you drink water today?");
+if ((q3 === "yes") ||(q3 === "no") ) {
+    arrAns.push(q3)
+}else {
+    arrAns.push("invalid")
+}
+
+console.log(arrAns.join(" | "))
+let rat =prompt("did you eat today?");
+if (rat > 5 ){
+    rat = 5;
+} else if ( rat < 0) {
+    rat = alert(`Thank you ${ratStar} for your time
+    your rat is ${"* ".repeat(ratStar)}`)
+
+console.log(theAnss.join(" | "));
+}
 
 
